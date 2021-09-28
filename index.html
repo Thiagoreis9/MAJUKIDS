@@ -6,8 +6,11 @@
 	<meta lang="pt-br">
 
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
 
-
+	
 	<title>MAJUKIDS™</title>
 </head>
 
@@ -21,7 +24,7 @@
 		<div id="nav">
 			<div class="container">
 				 
-				<img id="logo" src="logoexample.png">
+				<img id="logo" src="imagens/logoexample.png">
 
 			</div>
 
@@ -33,7 +36,29 @@
 	</header>
 	
 	<div id="conteudo">
-		<img src="img1.png">
+		<div class="container" id="carrosel">
+			<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+				<div class="carousel-item active" data-bs-interval="10000">
+					<img src="imagens/maju1.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item" data-bs-interval="2000">
+					<img src="imagens/maju2.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="imagens/maju3.jpeg" class="d-block w-100" alt="...">
+				</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</div>
 	</div>
 	
 	<div id="jquerytest" class="container">
@@ -50,7 +75,7 @@
 
 
 	<footer>
-		<script src="script.js"></script>
+		<!-- <script src="script.js"></script> -->
 		<script src="jquery.js"></script>
 		<script src="script_jquery.js"></script>
 
