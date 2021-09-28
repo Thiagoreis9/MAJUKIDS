@@ -28,7 +28,8 @@ header{
 }
 
 #logo{
-	width: 135px;
+	margin-top: -70px;
+	width: 250px;
 	float: left;
 }
 
@@ -45,24 +46,44 @@ header{
 
 #conteudo{
 	
-	padding: 100px 0 0 0;
+	padding: 50px 0px;
 	background-image: url("imagens/bg1.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-size: auto;
+	height: 500px;
 }
 
 #carrosel{
-	width: 200px;
-	height: 300px;
-	
+	width: 300px;
+	height: 200px;
+	float: left;
 }
+
+.carousel-inner{
+	width: 200%;
+}
+
+#sobre{
+	float: right;
+	padding: 30px;
+}
+#sobre h1{
+	font-family: "Be My Glittertine";
+	color: #ff0066;
+	text-shadow: #000000 0px 0px 4px;
+}
+
 
 #jquerytest h1{
 	font-family: "Be My Glittertine";
 	color: #ffa600;
 	padding: 10px 10px 10px 3px;
 	text-shadow: #000000 0px 0px 4px;
+}
+
+#menu1{
+	padding-left: 0px ;
 }
 
 #menino{
@@ -122,9 +143,123 @@ header{
 	text-shadow: 1px 1px 1px black;
 }
 
-#produtos{
-	width: 70%;
-	height: 600px;
+#produtopromo{
+	width: 100%;
+	min-height: 1520px;
 	background-color: #ffd280;
 	box-shadow: #000000 2px 2px 2px;
+	display: block;
+	padding: 10px;
+	
+}
+#produtomeninos{
+	width: 100%;
+	min-height: 1520px;
+	background-color: blue;
+	box-shadow: #000000 2px 2px 2px;
+	display: none;
+	padding: 10px;
+	
+}
+#produtomeninas{
+	width: 100%;
+	min-height: 1520px;
+	background-color: red;
+	box-shadow: #000000 2px 2px 2px;
+	display: none;
+	padding: 10px;
+}
+
+#blocoprodutos{
+	min-height: 2000px;
+}
+
+#roupapromo{
+	margin: 10px;
+	padding: 20px;
+	width: 300px;
+	height: 480px;
+	background-color: wheat;
+	float: left;
+	text-align: center;
+	border-radius: 10px;
+	
+}
+
+#roupapromo img{
+	width:260px;
+	height: 280px;
+	border-radius: 10px;
+	
+}
+
+#roupapromo h3{
+	font-family: "Be My Glittertine";
+	color: #313131;
+	padding: 10px 10px 10px 3px;
+	text-shadow: #000000 0px 0px 4px;
+}
+
+#roupapromo button{
+	border-color: 1px;
+}
+
+#roupamenino{
+	margin: 10px;
+	padding: 20px;
+	width: 300px;
+	height: 480px;
+	background-color: rgb(192, 252, 252);
+	float: left;
+	text-align: center;
+	border-radius: 10px;
+	
+}
+
+#roupamenino img{
+	width:260px;
+	height: 280px;
+	border-radius: 10px;
+	
+}
+
+#roupamenino h3{
+	font-family: "Be My Glittertine";
+	color: #313131;
+	padding: 10px 10px 10px 3px;
+	text-shadow: #000000 0px 0px 4px;
+}
+
+#roupamenino button{
+	border-color: 1px;
+}
+
+#roupamenina{
+	margin: 10px;
+	padding: 20px;
+	width: 300px;
+	height: 480px;
+	background-color: rgb(255, 227, 255);
+	float: left;
+	text-align: center;
+	border-radius: 10px;
+	
+}
+
+#roupamenina img{
+	width:260px;
+	height: 280px;
+	border-radius: 10px;
+	
+}
+
+#roupamenina h3{
+	font-family: "Be My Glittertine";
+	color: #313131;
+	padding: 10px 10px 10px 3px;
+	text-shadow: #000000 0px 0px 4px;
+}
+
+#roupamenina button{
+	border-color: 1px;
 }
