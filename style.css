@@ -1,0 +1,127 @@
+/*css*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	height: 105px;
+}
+
+body{
+	background-color: white;
+	background-size: 100%;
+}
+
+@font-face{
+	font-family: "Be My Glittertine";
+	src: url("Be My Glittertine.ttf");
+}
+
+.container{
+	width: 70%;
+	margin: 0px auto;
+}
+
+.efeito{
+	box-shadow: #101010 1px 1px 2px;
+}
+
+#logo{
+	width: 135px;
+	float: left;
+}
+
+#nav_top{
+	height: 32px;
+	background-color: #ffccff;
+}
+
+#nav{
+	height: 73px;
+	background-color: #ffe6ff;
+	box-shadow: #d0d0e1 1px 1px 4px;
+}
+
+#conteudo{
+	clear: both;
+	padding: 100px 0 0 0;
+}
+
+#conteudo img{
+	width: 100%;
+}
+
+#jquerytest h1{
+	font-family: "Be My Glittertine";
+	color: #ffa600;
+	padding: 10px 10px 10px 3px;
+	text-shadow: #000000 0px 0px 4px;
+}
+
+#menino{
+	font-family: "Be My Glittertine";
+	font-size: 20px;
+	color: #00e6b8;
+	background-color: #99ffeb;
+	width: 160px;
+	padding: 20px;
+	margin: 0px;
+	border: 0px;
+	text-shadow: 1px 1px 1px black;
+}
+
+#menina{
+	font-family: "Be My Glittertine";
+	font-size: 20px;
+	color: #ff0066;
+	background-color: #ffccff;
+	width: 160px;
+	padding: 20px;
+	margin: 0px;
+	border: 0px;
+	text-shadow: 1px 1px 1px black;
+}
+
+#promo{
+	font-family: "Be My Glittertine";
+	font-size: 20px;
+	color: #ffa600;
+	background-color: #ffd280;
+	width: 160px;
+	padding: 20px;
+	margin: 0px;
+	border: 0px;
+	text-shadow: 1px 1px 1px black;
+}
+
+#menino:hover{
+	-webkit-transition: 0.6s;
+	color: #99ffeb;
+	background-color: #00e6b8;
+	text-shadow: 1px 1px 1px black;
+}
+
+#menina:hover{
+	-webkit-transition: 0.6s;
+	color: #ffccff;
+	background-color: #ff0066;
+	text-shadow: 1px 1px 1px black;
+}
+
+#promo:hover{
+	-webkit-transition: 0.6s;
+	color: #ffd280;
+	background-color: #ffa600;
+	text-shadow: 1px 1px 1px black;
+}
+
+#produtos{
+	width: 70%;
+	height: 600px;
+	background-color: #ffd280;
+	box-shadow: #000000 2px 2px 2px;
+}
