@@ -18,6 +18,16 @@ header{
 	src: url("Be My Glittertine.ttf");
 }
 
+@font-face{
+	font-family: "aAngkatanBersenjata";
+	src: url("aAngkatanBersenjata.ttf");
+}
+
+@font-face{
+	font-family: "Lalisa Kiss";
+	src: url("Lalisa Kiss - Personal Use.otf");
+}
+
 .container{
 	width: 70%;
 	margin: 0px auto;
@@ -89,8 +99,8 @@ header{
 #menino{
 	font-family: "Be My Glittertine";
 	font-size: 20px;
-	color: #00e6b8;
-	background-color: #99ffeb;
+	color: #0064e6;
+	background-color: #689ceb;
 	width: 160px;
 	padding: 20px;
 	margin: 0px;
@@ -124,8 +134,8 @@ header{
 
 #menino:hover{
 	-webkit-transition: 0.6s;
-	color: #99ffeb;
-	background-color: #00e6b8;
+	color: #8baaf7;
+	background-color: #0064e6;
 	text-shadow: 1px 1px 1px black;
 }
 
@@ -155,7 +165,7 @@ header{
 #produtomeninos{
 	width: 100%;
 	min-height: 1520px;
-	background-color: blue;
+
 	box-shadow: #000000 2px 2px 2px;
 	display: none;
 	padding: 10px;
@@ -209,7 +219,7 @@ header{
 	padding: 20px;
 	width: 300px;
 	height: 480px;
-	background-color: rgb(192, 252, 252);
+	background-color: rgb(121, 187, 248);
 	float: left;
 	text-align: center;
 	border-radius: 10px;
@@ -263,3 +273,36 @@ header{
 #roupamenina button{
 	border-color: 1px;
 }
+
+#blocoprodutos img{
+	transition: all 0.5s;
+    cursor: pointer;
+}
+#blocoprodutos img:hover{
+	-webkit-transform: scale(1.15);
+    transform: scale(1.15);
+	
+
+}
+#blocoprodutos h3{
+	margin-top: 05px;
+	font-size: 55px;
+	font-family: "Lalisa Kiss";
+	color: white;
+	text-shadow: BLACK 1px 1px 6px;
+}
+#blocoprodutos h5{
+	margin-top: -25px;
+	font-family: "aAngkatanBersenjata";
+	font-weight: 800;
+	color: green;
+}
+
+#nav_footer{
+	background-color: #98d2d7;
+	width: 100%;
+	height: 200px;
+}
+
+
+

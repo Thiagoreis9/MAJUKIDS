@@ -7,11 +7,11 @@ $(function(){
 		$("#produtopromo").css("background-color", "#ffd280");
 	});
 	$("#menino").click(function(){
-		$("h1").css("color", "#00e6b8");
+		$("h1").css("color", "#0064e6");
 		$("#produtopromo").css("display", "none");
 		$("#produtomeninos").css("display", "block");
 		$("#produtomeninas").css("display", "none");
-		$("#produtomeninos").css("background-color", "#99ffeb");
+		$("#produtomeninos").css("background-color", "#689ceb");
 		
 	});
 	$("#menina").click(function(){
