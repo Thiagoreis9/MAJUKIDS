@@ -305,4 +305,118 @@ header{
 }
 
 
+@media screen and (max-width:1399px){
+	#produtopromo{
+		min-height: 2020px;
+	}
+
+	#blocoprodutos{
+		min-height: 2100px;
+	}
+
+}
+@media screen and (max-width:1199px){
+	#produtopromo{
+		min-height: 1990px;
+	}
+	#produtomeninos{
+		min-height: 1990px;
+	}
+	#produtomeninas{
+		min-height: 1990px;
+	}
+
+	#blocoprodutos{
+		min-height: 2050px;
+	}
+
+	#roupapromo{
+		margin: 5px;
+	}
+	#roupamenino{
+		margin: 5px;
+	}
+	#roupamenina{
+		margin: 5px;
+	}
+}
+@media screen and (max-width:991px){
+	#produtopromo{
+		min-height: 3190px;
+	}
+	#produtomeninos{
+		min-height: 3190px;
+	}
+	#produtomeninas{
+		min-height: 3190px;
+	}
+
+	#blocoprodutos{
+		min-height: 3300px;
+	}
+
+	#roupapromo{
+		margin: 25px;
+	}
+	#roupamenino{
+		margin: 25px;
+	}
+	#roupamenina{
+		margin: 25px;
+	}
+
+	#promo{
+		width: 102%;
+	}
+
+	#menino{
+		width: 102%;
+	}
+
+	#menina{
+		width: 102%;
+	}
+}
+@media screen and (max-width:767px){
+	#produtopromo{
+		min-height: 6380px;
+		padding-left: 100px;
+	}
+	#produtomeninos{
+		min-height: 6380px;
+		padding-left: 100px;
+	}
+	#produtomeninas{
+		min-height: 6380px;
+		padding-left: 100px;
+	}
+
+	#blocoprodutos{
+		min-height: 6450px;
+	}
+
+	#roupapromo{
+		margin: 25px;
+	}
+	#roupamenino{
+		margin: 25px;
+	}
+	#roupamenina{
+		margin: 25px;
+	}
+
+	#promo{
+		width: 102%;
+	}
+
+	#menino{
+		width: 102%;
+	}
+
+	#menina{
+		width: 102%;
+	}
+}
+
+
 
