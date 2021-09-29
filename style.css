@@ -376,6 +376,26 @@ header{
 	#menina{
 		width: 102%;
 	}
+
+	#sobre {
+		clear: both;
+		float: none;
+		padding: 250px 20px 20px 20px;
+		text-align: center;
+		
+	}
+	#conteudo{
+		height: 800px;
+		
+	}
+	#jquerytest h1{
+		text-align: center;
+	}
+	#carrosel{
+		clear: both;
+		margin-left: 200px;
+
+	}
 }
 @media screen and (max-width:767px){
 	#produtopromo{
@@ -415,6 +435,11 @@ header{
 
 	#menina{
 		width: 102%;
+	}
+	
+	#carrosel {
+	
+		margin-left: 110px;
 	}
 }
 
