@@ -27,6 +27,10 @@ header{
 	font-family: "Lalisa Kiss";
 	src: url("Lalisa Kiss - Personal Use.otf");
 }
+@font-face{
+	font-family: "Gravity Well";
+	src: url("Gravity Well DEMO.otf");
+}
 
 .container{
 	width: 70%;
@@ -285,9 +289,9 @@ header{
 
 }
 #blocoprodutos h3{
-	margin-top: 05px;
-	font-size: 55px;
-	font-family: "Lalisa Kiss";
+	margin: 15px;
+	font-size: 35px;
+	font-family: "Gravity Well";
 	color: white;
 	text-shadow: BLACK 1px 1px 6px;
 }
@@ -308,6 +312,17 @@ header{
 @media screen and (max-width:1399px){
 	#produtopromo{
 		min-height: 2020px;
+	}
+	#produtomeninos{
+		min-height: 2020px;
+	}
+	#produtomeninas{
+		min-height: 2020px;
+	}
+
+	#sobre{
+		margin-top: -190px;
+		font-size: 15px;
 	}
 
 	#blocoprodutos{
@@ -338,6 +353,19 @@ header{
 	}
 	#roupamenina{
 		margin: 5px;
+	}
+
+	#conteudo{
+		height: 900px;
+	}
+	#sobre{
+		float: none;
+		margin-top: 250px;
+		margin-left: 240px;
+	}
+	#carrosel{
+		margin-left: 350px;
+		float: none;
 	}
 }
 @media screen and (max-width:991px){
@@ -380,13 +408,15 @@ header{
 	#sobre {
 		clear: both;
 		float: none;
-		padding: 250px 20px 20px 20px;
-		text-align: center;
+		padding: 20px 20px 20px 20px;
+		
+		margin-left: 150px;
+
+	
 		
 	}
 	#conteudo{
-		height: 800px;
-		
+		height: 1000px;		
 	}
 	#jquerytest h1{
 		text-align: center;
@@ -438,10 +468,34 @@ header{
 	}
 	
 	#carrosel {
-	
 		margin-left: 110px;
 	}
+
+	#conteudo{
+		height: 1050px
+	}
+
+	#sobre{
+		margin-left: 80px;
+	}
+
 }
+
+#nav_footer{
+	padding-top: 40px;
+	font-size: 25px;
+	font-weight: 900;
+	color: white;
+	text-decoration: none;
+	text-transform: none;
+	text-align: center;
+	text-shadow: #000000 1px 1px 3px;
+}
+#nav_footer a{
+	text-transform: none;
+	text-decoration: none;
+}
+
 
 
 
